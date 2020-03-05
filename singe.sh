@@ -3,7 +3,7 @@
 SCRIPT_DIR=`dirname "$0"`
 if realpath / >/dev/null; then SCRIPT_DIR=$(realpath "$SCRIPT_DIR"); fi
 DAPHNE_BIN=daphne.bin
-DAPHNE_SHARE=~/.daphne
+DAPHNE_SHARE=/opt/retropie/emulators/daphne/.daphne
 
 function STDERR () {
 	/bin/cat - 1>&2
