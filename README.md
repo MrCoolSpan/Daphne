@@ -29,6 +29,7 @@ amd64 processor.  I'm not sure anymore how to get Daphne compiled for
     make
     cd ..
     mkdir -p ~/.daphne
+    mkdir -p ~/.daphne/singe
     cp -a pics sound ~/.daphne/
 
 ### Missing libraries?
