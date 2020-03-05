@@ -37,7 +37,7 @@ amd64 processor.  I'm not sure anymore how to get Daphne compiled for
 Cutting and pasting the following in a Debian GNU/Linux system (or
 derivative), will install all prerequisite development libraries.
 
-    sudo apt install libsdl-dev libglew-dev libvorbis-dev libsdl-image1.2-dev libsdl-ttf2.0-dev
+    sudo apt install libsdl-dev libsdl2-mixer-dev libglew-dev libvorbis-dev libsdl-image1.2-dev libsdl-ttf2.0-dev zlib1g-dev libxmu-dev
 
 ## Laserdisc images and ROMs
 
